@@ -5,27 +5,26 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* تغيير الألوان إلى أزرق غامق مع ذهبي */
-  --background: 220 40% 15%; /* أزرق غامق */
-  --foreground: 45 100% 60%; /* ذهبي */
-  --card: 0 0% 100%; /* أبيض للكروت */
-  --card-foreground: 220 40% 15%; /* أزرق غامق للنص داخل الكروت */
+  --background: 36 33% 97%;
+  --foreground: 224 39% 16%;
+  --card: 0 0% 100%;
+  --card-foreground: 224 39% 16%;
   --popover: 0 0% 100%;
-  --popover-foreground: 220 40% 15%;
-  --primary: 45 100% 60%; /* ذهبي */
-  --primary-foreground: 220 40% 15%; /* أزرق غامق */
-  --secondary: 220 40% 20%; /* أزرق غامق أفتح قليلاً */
-  --secondary-foreground: 45 100% 60%; /* ذهبي */
-  --muted: 220 30% 25%;
-  --muted-foreground: 45 80% 70%; /* ذهبي فاتح */
-  --accent: 45 100% 60%;
-  --accent-foreground: 220 40% 15%;
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 210 40% 98%;
-  --border: 220 30% 30%;
-  --input: 0 0% 100%; /* أبيض للإدخالات */
-  --ring: 45 100% 60%;
-  --radius: 0.5rem;
+  --popover-foreground: 224 39% 16%;
+  --primary: 174 72% 36%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 31 100% 92%;
+  --secondary-foreground: 19 78% 38%;
+  --muted: 36 25% 92%;
+  --muted-foreground: 224 17% 43%;
+  --accent: 19 88% 62%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 36 20% 87%;
+  --input: 0 0% 100%;
+  --ring: 174 72% 36%;
+  --radius: 0.85rem;
 }
 
 .dark {
